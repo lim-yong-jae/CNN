@@ -1,5 +1,5 @@
 Using **Transfer Learning** for training. I implement FCN-8s using VGG16. 
-FCN is composed of two parts. VGG16 makes heatmap, and it is not trained in my code because i think there should be criteria. Only FCN's upsample section is trained. 
+FCN is composed of two parts. VGG16 makes heatmap, and it is not trained in my code because i think there should be criteria. VGG16 is already trained well, so i think that i don't need to train it. Only FCN's upsample section is trained in my code. 
 
 
 # Architecture  
