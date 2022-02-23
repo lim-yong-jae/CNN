@@ -7,8 +7,7 @@ I implement FCN-8s in paper. The architecture of it is equal to the paper's. I s
 dataset1 is the dataset that i use, and i get it from: https://github.com/divamgupta/image-segmentation-keras. 
 
 # Problem 
- My CNN classify only 2 class but there are 11 class. So i use custom loss function. My loss function is defined as
- 
+ My CNN classify only 2 class when i use CrossEntropy Loss function, but there are 11 class. So i should use another loss function that deal with predicted output independently. So i use BCELoss function which can be used for multiclass that is BCEWithLogitsLoss.  
 
 # Train Result
 
