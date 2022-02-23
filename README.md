@@ -1,10 +1,10 @@
 # CNN
 
 # Loss function of Multi class classification
-1) CrossEntropyLoss
+1) **CrossEntropyLoss**  
  I think that it is not suitable when given true data is label data. Because it classfies specific class. For example, 100 classes classification's problem, it classify specific class that occupies most data in train dataset. Because label data's probabilty is one when it is true class, and others are 0. So if we want to use CrossEntropyLoss in multi class classification, we should use weight for consdiering dataset's class's appearance count. If given true data is probabilty, CrossEntropyLoss is useful. 
 
-2) BCEWithLogitsLoss
+2) **BCEWithLogitsLoss**   
  It takes all classes output independently. It calculate BCE Loss at every class. So it is useful when given true data is label form.  
 
 ## Fully convolution network  
