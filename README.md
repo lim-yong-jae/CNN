@@ -1,5 +1,12 @@
 # CNN
 
+# Loss function of Multi class classification
+1) CrossEntropyLoss
+
+
+2) BCEWithLogitsLoss
+ 
+
 ## Fully convolution network  
 Classifier using convolution layer, at last layer it uses fully connected layer. Fully connected layer can be replaced by convolution layer.
 
