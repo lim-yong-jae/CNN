@@ -27,30 +27,30 @@ loss = loss1 + 2 * loss2 # (1,2) is the weight for penalizing convergence to spe
  I train my model by using hyper parameters that paper suggest.  
 
 * batch_size = 20
-* epochs = 80
+* epochs = 120
 * lr = 1e-4
 * momentum = 0.9
 * weight_decay = 1e-5   
 
 
-1. img directories save images during learning process. For example,   
+1. img directories save images for showing how it is trained during learning process. For example,   
 
 epochs: 1   
-<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
-<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>  
+<img src="./img/0.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/0_cmp.png" alt="MLE" width="70%" height="70%"/>  
 
-epochs: 25   
-<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
-<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+epochs: 20   
+<img src="./img/20.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/20_cmp.png" alt="MLE" width="70%" height="70%"/>
 
-epochs: 60   
-<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
-<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+epochs: 80   
+<img src="./img/80.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/80_cmp.png" alt="MLE" width="70%" height="70%"/>
 
-2. ans_img directories save test images, original image, True segmentation images and predicted images. For example,   
-<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
-<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
-<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+2. ans_img directories save test images, original image, True segmentation images and predicted images. You get get that data if you run main.py For example,   
+<img src="./ans_img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+<img src="./ans_img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+<img src="./ans_img/baekjun.png" alt="MLE" width="70%" height="70%"/>
 
 
 # Reference:  
