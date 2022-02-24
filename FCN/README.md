@@ -18,6 +18,17 @@ dataset1 is the dataset that i use, and i get it from: https://github.com/divamg
 
 ```
 # Train Result
+I train my model by using hyper parameters that paper suggest. 
+* batch_size = 20
+* epochs = 80
+* lr = 1e-4
+* momentum = 0.9
+* weight_decay = 1e-5
+
+1) img directories save images during learning process. For example, 
+
+
+2) ans_img directories save test images, original image, True segmentation images and predicted images. For example,
 
 
 # Reference:  
