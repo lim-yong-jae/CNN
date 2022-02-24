@@ -7,7 +7,9 @@ I implement FCN-8s in paper. The architecture of it is equal to the paper's. I s
 
 
 # Dataset  
-dataset that i use, get it from: https://github.com/divamgupta/image-segmentation-keras. I make that dataset to ".pt" file in this code. if you run "train.py" with dataset1 directory which contain dataset's data, you can get, train_dataset.pt and test_dataset.pt.
+dataset that i use, get it from: https://github.com/divamgupta/image-segmentation-keras,   
+and the dataset1 link is https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view?resourcekey=0-3WcVUCySTS9ajn1UWHrmtA   
+I make that dataset to ".pt" file in this code. if you run "train.py" with dataset1 directory which contain dataset's data, you can get, train_dataset.pt and test_dataset.pt.
 
 
 # Problem 
