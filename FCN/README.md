@@ -36,21 +36,19 @@ loss = loss1 + 2 * loss2 # (1,2) is the weight for penalizing convergence to spe
 1. img directories save images for showing how it is trained during learning process. For example,   
 
 epochs: 1   
-<img src="./img/0.png" alt="MLE" width="70%" height="70%"/>
-<img src="./img/0_cmp.png" alt="MLE" width="70%" height="70%"/>  
+<img src="./img/0.png" alt="MLE" width="40%" height="40%"/>
+<img src="./img/0 cmp.png" alt="MLE" width="40%" height="40%"/>  
 
 epochs: 20   
-<img src="./img/20.png" alt="MLE" width="70%" height="70%"/>
-<img src="./img/20_cmp.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/20.png" alt="MLE" width="40%" height="40%"/>
+<img src="./img/20 cmp.png" alt="MLE" width="40%" height="40%"/>
 
 epochs: 80   
-<img src="./img/80.png" alt="MLE" width="70%" height="70%"/>
-<img src="./img/80_cmp.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/80.png" alt="MLE" width="40%" height="40%"/>
+<img src="./img/80 cmp.png" alt="MLE" width="40%" height="40%"/>
 
 2. ans_img directories save test images, original image, True segmentation images and predicted images. You get get that data if you run main.py For example,   
-<img src="./ans_img/baekjun.png" alt="MLE" width="70%" height="70%"/>
-<img src="./ans_img/baekjun.png" alt="MLE" width="70%" height="70%"/>
-<img src="./ans_img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+<img src="./ans_img/0_original.png" alt="MLE" width="30%" height="30%"/> <img src="./ans_img/0_true.png" alt="MLE" width="30%" height="30%"/> <img src="./ans_img/0_predict.png" alt="MLE" width="30%" height="30%"/>
 
 
 # Reference:  
