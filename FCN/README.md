@@ -34,9 +34,22 @@ loss = loss1 + 2 * loss2 # (1,2) is the weight for penalizing convergence to spe
 
 
 1. img directories save images during learning process. For example, 
+epochs: 1
+<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
 
+epochs: 25
+<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+
+epochs: 60
+<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
 
 2. ans_img directories save test images, original image, True segmentation images and predicted images. For example,
+<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
+<img src="./img/baekjun.png" alt="MLE" width="70%" height="70%"/>
 
 
 # Reference:  
