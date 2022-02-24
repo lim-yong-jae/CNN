@@ -14,8 +14,9 @@ dataset1 is the dataset that i use, and i get it from: https://github.com/divamg
  1) VGG16's Conv layer's output 1/2 size of input size. What if input is odd? Under decimal point's value is rounded down. It makes dimension incorrect when VGG16's pool3,4,5's results are concatenated. So i should transform train image size to specific size which should be multiples of 2^5 (5 is conv layer's count) 
  
  2) My CNN classify only 2 class when i use CrossEntropy Loss function, but there are 11 class. So i should use another loss function that deal with predicted output independently. So i use my custom loss function that penalizes more to incorrect for preventing converging to specific class.   
+```python
 
-
+```
 # Train Result
 
 
