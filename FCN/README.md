@@ -47,7 +47,7 @@ epochs: 80
 <img src="./img/80.png" alt="MLE" width="40%" height="40%"/>
 <img src="./img/80 cmp.png" alt="MLE" width="40%" height="40%"/>
 
-2. ans_img directories save test images, original image, True segmentation images and predicted images. You get get that data if you run main.py For example,   
+2. ans_img directories save test images, original image, True segmentation images and predicted images. You get get that data if you run "main.py". For example,   
 <img src="./ans_img/0_original.png" alt="MLE" width="30%" height="30%"/> <img src="./ans_img/0_true.png" alt="MLE" width="30%" height="30%"/> <img src="./ans_img/0_predict.png" alt="MLE" width="30%" height="30%"/>
 
 
