@@ -1,5 +1,7 @@
 Using **Transfer Learning** for training. I implement FCN-8s using VGG16.  
 FCN is composed of two parts. VGG16 makes heatmap, **but it is not trained in my code because i think there should be criteria.** VGG16 is already trained well, so i think that it is not needed to be trained. Only FCN's upsample section is trained in my code. 
++) VGG16's net classify 1000 class!. But my model classfy only 11 class, so if i train VGG16 part in my fcn, it trains to classify only 11 class. It means it is localized. 
++) By fixing VGG16 part, i wanna show it is enough to train upsample section for classifying the dataset i use. 
 
 
 # Architecture  
@@ -53,6 +55,8 @@ epochs: 80
 2. ans_img directories save test images, original image, True segmentation images and predicted images. You get get that data if you run "main.py". For example,   
 <img src="./ans_img/0_original.png" alt="MLE" width="30%" height="30%"/> <img src="./ans_img/0_true.png" alt="MLE" width="30%" height="30%"/> <img src="./ans_img/0_predict.png" alt="MLE" width="30%" height="30%"/>  
 There are more classified classes than CrossEntropyLoss but still some class are ignored. I think this problem can be solved by applying weight to my loss function.   
++) I think that FCN's encoder part(VGG16) does not output human heatmap.
+
 
 
 # Reference:  
