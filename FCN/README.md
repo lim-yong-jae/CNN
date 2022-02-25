@@ -54,8 +54,9 @@ epochs: 80
 
 2. ans_img directories save test images, original image, True segmentation images and predicted images. You get get that data if you run "main.py". For example,   
 <img src="./ans_img/0_original.png" alt="MLE" width="30%" height="30%"/> <img src="./ans_img/0_true.png" alt="MLE" width="30%" height="30%"/> <img src="./ans_img/0_predict.png" alt="MLE" width="30%" height="30%"/>  
-There are more classified classes than CrossEntropyLoss but still some class are ignored. I think this problem can be solved by applying weight to my loss function.   
-+) I think that FCN's encoder part(VGG16) does not output human heatmap.
+There are more classified classes than CrossEntropyLoss but still some class are ignored. I think this problem can be solved by applying weight to my loss function.    
+
+**+) I think that FCN's decoder part does not output human heatmap in classifier part.**
 
 
 
